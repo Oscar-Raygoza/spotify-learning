@@ -1,8 +1,19 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
+
+/**
+ * Components
+ */
+import Header from "../../components/container/Header";
+import SearchEngine from "../../components/container/SearchEngine";
 
 class Home extends Component {
   render() {
-    return <h1>S</h1>;
+    return (
+      <Fragment>
+        <Header />
+        <SearchEngine />
+      </Fragment>
+    );
   }
 }
 
